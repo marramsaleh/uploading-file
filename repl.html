@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+
+<style>
+
+
+/*global*/
+
+body{ font-size:15px;
+      margin:0;
+      padding:0;
+      background-color:#276a9e;}
+
+.conatiner{
+           width:80%;
+           margin: auto;
+
+
+
+
+           overflow:hidden;}
+
+/*header*/
+header{ color:white;
+         background-color:#276a9e;
+         min-height:70px;
+         padding-top:20px;} 
+
+header h1{ text-align:center;}
+
+header p{  padding:2%;;
+           text-align:center;}
+
+
+#showcase{ padding-bottom:10%;
+           padding-top:40px;
+           min-height:300px;
+           background-color:#276a9e;
+           text-align:center;
+           color:white;}
+#showcase img { width:60%;}
+
+.btntop{    border:none;
+             border-radius:5px;
+             height:60px;
+             width:250px;
+             background-color:#0c3e66;
+             color:white;}
+                    
+.pstyle{ text-align:center;
+            padding:4%;}
+                          
+
+
+.boxes
+       { padding:8%;
+        background-color:white;
+          min-height:800px;}
+
+.container .box{ margin-left:6%;
+                 float:left;
+                 text-align:center;
+                 width:40%;}
+                             
+
+.container img{width:80%;}
+
+
+.btnstyle{  border:0;
+            height:60px;
+            width:250px;
+            border-radius:5px;
+            background-color:#276a9e;
+             color:white;}
+#onelement
+         {
+         background-color:white;
+          display:block;
+          clear:both;
+          width:100%;
+          padding-top:6%;
+          text-align:center;}
+
+
+footer{width:100%; 
+       min-height:70%;
+       padding-top:4%;
+       text-align:center;
+       background-color:#f4f4f4;
+       clear:both;}
+           
+.pdown{text-align:center;
+           padding:4%;
+           color:#8f918c;  }
+
+
+#bottom_logo{ padding-left:42%;
+              display:block;
+              float:right
+              text-align:center;
+              clear:both;
+              background-color:#f4f4f4;}
+       
+.imgstyle{ 
+            float:left;
+            width:7%;
+            height:7%;
+            background-color:white;}
+.pstyle{ text-align:center;
+            padding:4%;
+            color:white;  }
+.linkbutton{text-decoration:underline;
+            color:white;
+       font-size:22px;}  
+
+/*media queries  for smart phone -------------------*/
+
+ @media only screen and (min-width:320px)and (max-width:480px)
+                  {.boxes .box{ float:none;
+                                width:100%;
+                                text-align:center;}
+
+                     #showcase .btntop{width:200px;
+                                       height:40px;}
+
+                     #onelement .btnstyle{ width:200px;
+                                           height:40px;
+                                           padding:2%;}
+
+                     #bottom_logo{ padding-bottom:10px;
+                                     padding-left:2%;}
+
+                     .imgstyle{ padding-top:20px;
+                                       width:24%;
+                                       height:18%;}
+
+                      footer .pdown{ margin-top:4%;
+                                      padding:8%;
+                                      font-size:12px;
+                                      text-align:center;} 
+                         }
+
+
+/*media queries for tablets-------------------------*/  
+
+@media only screen  and (max-width:768px)
+                     {.boxes .box{ float:none;
+                                    width:90%;
+                                    text-align:center;}
+
+                        #showcase .btntop{width:270px;
+                                          height:70px;}
+
+                        #onelement .btnstyle{ width:270px;
+                                              height:70px;
+                                              padding:2%;}
+
+                         #bottom_logo{ padding-bottom:10px;
+                                          padding-left:2%;}
+
+                        .imgstyle{ padding-top:20px;
+                                                 width:24%;
+                                               height:18%;}
+
+                        footer .pdown{ margin-top:4%;
+                                         padding:8%;
+                                         font-size:18px;
+                                        text-align:center;} 
+                                }                                     
+/*ending -------------------------*/                                             
+                 
+      </style>
+  </head>
+
+
+     <body>
+  
+         <header>  
+               <div class="conatiner">
+                   <h1  class="logo"> logo here  </h1> 
+                   <h1>Explore responsive email template </h1>
+                   <p> available on GetHub</p>
+               </div>
+
+        </header>
+
+        <section  id="showcase">
+               <div class="container"> 
+                     <img src="image.png" alt="image"> <br>
+                     <p class="pstyle">with equal margins between the two.
+                        Normally the markup and styles for
+                        this layout would look a bit like the following.<br>
+                        .Normally the markup and styles for
+                        this layout would look a bit like the following. </p>
+
+                      <button type="submit" class="btntop">
+                      <a href="https://google.com"  class="linkbutton"> Explore template</a>         
+            </div>
+        </section>
+
+
+
+        <!--------- boxes area----->
+         <section class="boxes">         
+                       <div class ="container"> 
+                             <div class="box">
+                                      <img src="image.png">
+                                      <a  href= "https://www.google.com">
+                                      <h1> General template</h1></a>
+                                      <p>with equal margins between the two. 
+                                         Normally the markup and styles for
+                                         this layout would look a bit like the following. </p>
+                                                  
+                               </div>
+  
+                               <div class="box">
+                                          <img src="image.png">
+                                          <a  href= "https://www.google.com">
+                                          <h1> Transactional template</h1></a>
+                                          <p>with equal margins between the two. 
+                                             Normally the markup and styles for
+                                             this layout would look a bit like the following.</p>
+                                                   
+                                </div>
+                         </div> 
+                     
+                      
+
+                          
+                   <div class ="container"> 
+                                <div class="box">
+                                        <img src="image.png">
+                                         <a  href= "https://www.google.com">
+                                         <h1> promotional template</h1></a>
+                                         <p>with equal margins between the two. 
+                                            Normally the markup and styles for
+                                            this layout would look a bit like the following.</p>
+                                                   
+                                </div>
+  
+                                <div class="box">
+                                           <img src="image.png">
+                                           <a  href= "https://www.google.com">
+                                           <h1> explorational template</h1></a>
+                                           <p>with equal margins between the two. 
+                                               Normally the markup and styles for
+                                              this layout would look a bit like the following. </p>
+                                                  
+                                 </div>
+                             
+                       </div> 
+
+                    <div id="onelement"> 
+                                 <button type="submit" class="btnstyle">
+                                 <a href="https://google.com"  class="linkbutton">Get more template</a> </button>
+                                                                    
+                     </div>
+
+            </section>
+ <!---------boxes ending---------------------------------->
+
+ <!---------footer---->
+          <footer> 
+                   <div id="bottom_logo">
+                              
+                                <div class="container">                                          
+                                           <div class="imgstyle" ><img src="facebook.png" ></div>
+                                           <div class="imgstyle" > <img src="twitter.png"></div>
+                                           <div class="imgstyle" ><img src="google2.png" ></div>
+                                            <div class="imgstyle" ><img src="insta.png" ></div>
+                                </div>
+                    </div>
+
+                        <div  class="pdown" >
+                             <p>with equal margins between the two. Normally the markup and styles for
+                             this layout would look a bit like the following.margins between the two.
+                             <br>Normally the markup 
+                              and styles for this layout would look a bit like the following. </p> 
+                       </div>
+           </footer>
+
+
+
+        </body>
+</html>
+
